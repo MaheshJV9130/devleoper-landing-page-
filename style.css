@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Baloo 2", Arial, Helvetica, sans-serif sans-serif;
+
+}
+
+/* for hero section */
+.intro-txt {
+    margin-left: 25px;
+}
+
+.hero {
+    width: 100vw;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #146eb4;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/id/1372353160/photo/young-asian-programmer-working-at-office.jpg?s=612x612&w=0&k=20&c=LO6IHvBGpqS798EZ6rmoJ8XtPs5iureu-pl38V1WxuA=");
+}
+
+.hi {
+    font-size: 5rem;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.dev {
+    margin-left: 200px;
+    font-weight: 300;
+
+}
+
+/* hero section-end */
+/* work section */
+.work {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-txt {
+    margin-right: 9px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    word-spacing: 2.5px;
+}
+
+.big-txt {
+    font-size: 3rem;
+}
+
+/* work-section-end */
+/* skill */
+.skills-section {
+    width: 100vw;
+    height: 350px;
+    /* border:2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.web-dev,
+.app-dev,
+.ux-ui {
+    width: 30%;
+    height: 350px;
+    margin: 25px;
+    /* border:2px solid white; */
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 2px grey;
+}
+
+/* for web */
+.skill-img {
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.para {
+    text-align: center;
+    font-size: 14px;
+
+}
+
+/* subfoooter */
+.sub-footer {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    color:white;
+  
+}
+
+.about{
+    width: 50%;
+    height: 200px;
+    background-color: #e28743;
+    
+}
+
+.contact{
+    width: 50%;
+    height: 200px;
+    background-color: #1e81b0;
+}
+/* footer */
+footer{
+    background-color: black;
+    color:white;
+}
+
+
+/* transitions *.dev
